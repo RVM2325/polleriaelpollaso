@@ -1,0 +1,192 @@
+/*=========================================
+    ESTILOS GENERALES
+=========================================*/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.rvm-titulo{
+    color: #C62828;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.rvm-texto{
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/*=========================================
+    NAVBAR
+=========================================*/
+
+.rvm-navbar{
+    background-color: #C62828;
+}
+
+.rvm-logo{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+    font-weight: 500;
+}
+
+/*=========================================
+    CAROUSEL
+=========================================*/
+
+.rvm-banner{
+    height: 550px;
+    object-fit: cover;
+}
+
+.carousel-caption{
+    background-color: rgba(0,0,0,0.45);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.carousel-caption p{
+    font-size: 18px;
+}
+
+/*=========================================
+    BOTONES
+=========================================*/
+
+.btn-warning{
+    background-color: #FFC107;
+    border: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn-danger{
+    background-color: #C62828;
+    border: none;
+}
+
+/*=========================================
+    BIENVENIDA
+=========================================*/
+
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*=========================================
+    CARDS
+=========================================*/
+
+.card{
+    border: none;
+    box-shadow: 0px 2px 8px rgba(0,0,0,.15);
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-text{
+    text-align: center;
+}
+
+/*=========================================
+    ICONOS
+=========================================*/
+
+.bi{
+    font-size: 55px;
+}
+
+/*=========================================
+    VIDEO
+=========================================*/
+
+.ratio{
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/*=========================================
+    FOOTER
+=========================================*/
+
+.rvm-footer{
+    background-color: #212529;
+    color: white;
+    padding: 40px 0;
+}
+
+.rvm-footer h3,
+.rvm-footer h4{
+    margin-bottom: 20px;
+}
+
+.rvm-footer ul{
+    padding-left: 0;
+}
+
+.rvm-footer li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.rvm-footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.rvm-footer p{
+    margin-bottom: 10px;
+}
+
+.rvm-footer hr{
+    border: 1px solid #555;
+}
+
+/*=========================================
+    RESPONSIVE
+=========================================*/
+
+@media (max-width:768px){
+
+    .rvm-banner{
+        height:300px;
+    }
+
+    .carousel-caption h2{
+        font-size:24px;
+    }
+
+    .carousel-caption p{
+        font-size:14px;
+    }
+
+    .rvm-titulo{
+        text-align:center;
+    }
+
+    .rvm-logo{
+        font-size:26px;
+    }
+
+}
